@@ -5,7 +5,7 @@
       "@semantic-release/commit-analyzer",
       {
         "releaseRules": [
-          { "message": "*", "release": "patch" }
+          { "header": "*", "release": "patch" }
         ]
       }
     ],
